@@ -1,0 +1,5 @@
+C = input()
+F = (float(C) * 1.8 + 32)
+C_S = str(C)
+F_S = str(F)
+print ("{} C is equal to {} F.".format(C,F))
