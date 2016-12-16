@@ -21,6 +21,8 @@ def roll_dice():
 # returns: the bet money
 def get_bet(bank_account):
     print("How much{}")
+    #bank money
+    print("how much you will bet{}")
     
     
 # function name: check_first_roll
