@@ -22,7 +22,9 @@ def roll_dice():
 def get_bet(bank_account):
     print("How much{}")
     #bank money
-    print("how much you will bet{}")
+    print("how much are you will bet{}")
+    return get_bet(bank_account)
+    
     
     
 # function name: check_first_roll
