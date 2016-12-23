@@ -130,62 +130,6 @@ def give_ending_response(final_money_count):
         else:
             print("You didn\'t even make anything.")
     print("GAME OVER.")
-    
-# function name: ask_for_tutorial
-# purpose: asks if you want a tutorial
-# and will print out a tutorial
-# if you say yes
-# arguments: None
-# returns: None
-def ask_for_tutorial():
-    print("------------------------------")
-    tutorial_prompt = input("Would you like a tutorial on Craps? [\'y\' or \'n\'] ")
-    while tutorial_prompt != 'y' and tutorial_prompt != 'n':
-        print("You can answer \"Yes\" or \"No\" by typing either \'y\' or \'n\'.")
-        tutorial_prompt = input("Now I will ask you again. Would you like a tutorial on Craps? [\'y\' or \'n\'] ")
-    if tutorial_prompt == 'y':
-        give_tutorial()
-    else:
-        print("Then we shall begin the game.")
-
-# function name: give_tutorial
-# purpose: prints lengthy tutorial
-# arguments: None
-# returns: None
-def give_tutorial():
-    input("Okay. Press enter to continue to the tutorial.")
-    print("------------------------------")
-    print("Craps is a gambling game where the player bets money")
-    print("and then dice is rolled. Based on the sum of their")
-    print("roll, they will either win their bet, lose their")
-    print("bet, or roll again for a winning or losing roll.")
-    print("Now let me explain what are the rules that determine")
-    print("this.")
-    input("Press enter to continue.")
-    print("")
-    print("The first roll you make can result in a couple of")
-    print("things. If you roll a 2, 3, or a 12, you lose. If")
-    print("you roll a 7 or an 11, you win. But if you roll")
-    print("anything else, you have roll again and the rules")
-    print("change. If you roll only a 7, you lose. If you")
-    print("roll the number you rolled in the first round, you")
-    print("win. This number is also called the point number.")
-    print("If you roll something else, nothing happens and")
-    print("you simply roll again and again until you roll a")
-    print("7 or your point number. Now let me explain a few")
-    print("other things.")
-    input("Press enter to continue.")
-    print("")
-    print("When you start the game, you will have $100. You")
-    print("can only bet a positive whole number that is not")
-    print("more than the $100 you have. Another thing to")
-    print("mention is that the game will only end when you")
-    print("run out of money or if you decide to answer \'No\'")
-    print("to a prompt asking if you want to continue the")
-    print("game at the end of each round.")
-    input("Press enter to continue.")
-    print("")
-    print("Now that\'s all for the tutorial! Let\'s play Craps!")
   
 # function name: craps
 # purpose: the main game function, uses all of
